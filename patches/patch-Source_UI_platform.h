@@ -9,7 +9,16 @@ $NetBSD$
  										// find drive count
  #endif // _WIN32
 -#ifdef __linux__
-+#if defined(__linux__) || defined(__NetBSD__)
++#if defined(UNIX)
  	bool FindUp(const char *dir);
  										// find ..
  	void *dir_handle;
+@@ -75,7 +75,7 @@ private:
+ 										// file name (shift-jis)
+ 	bool dir_up;
+ 										// FindUp() result
+-#endif // __linux__
++#endif // UNIX
+ };
+ 
+ #endif // PLATFORM_H
