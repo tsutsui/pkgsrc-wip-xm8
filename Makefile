@@ -10,7 +10,7 @@ EXTRACT_SUFX=		.zip
 
 MAINTAINER=		tsutsui@NetBSD.org
 HOMEPAGE=		http://retropc.net/pi/
-COMMENT=		Cross platform PC-8801 emulator
+COMMENT=		Multi-platform NEC PC-8801 emulator
 LICENSE=		gnu-gpl-v2
 
 EXTRACT_DIR=		${WRKDIR}/${DISTNAME}
