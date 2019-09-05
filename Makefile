@@ -23,7 +23,7 @@ NO_CONFIGURE=		YES
 INSTALLATION_DIRS+=	bin share/doc/xm8
 
 post-extract:
-	(cd ${EXTRACT_DIR}/Source && ${UNZIP_CMD} Source.zip)
+	(cd ${WRKSRC}/Source && ${UNZIP_CMD} Source.zip)
 
 do-build:
 	(cd ${WRKSRC}/Source/Linux && ${GMAKE} -f makefile)
