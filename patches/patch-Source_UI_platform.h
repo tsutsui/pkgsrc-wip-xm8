@@ -1,4 +1,4 @@
-$NetBSD$
+$NetBSD: patch-Source_UI_platform.h,v 1.1 2019/09/07 00:36:34 tsutsui Exp $
 
 - add NetBSD denitions
 

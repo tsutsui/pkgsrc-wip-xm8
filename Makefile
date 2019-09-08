@@ -1,4 +1,4 @@
-# $NetBSD$
+# $NetBSD: Makefile,v 1.1 2019/09/07 00:36:34 tsutsui Exp $
 
 VERSION=		1.70
 DISTNAME=		xm8_${VERSION:S/.//}
